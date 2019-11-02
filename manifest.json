@@ -5,11 +5,59 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Audio.MusicCueFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Audio.MusicCueFactory.html",
+          "hash": "PI5k7+s4QMS8IGtIl1CzjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Audio.MusicPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Audio.MusicPack.html",
+          "hash": "s9dYk+/R7D07chH+GU93wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Audio.html",
+          "hash": "IWLtVpaiZkrT2L3wHJpUEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Events.html",
+          "hash": "6S3lY/bGusnvX/7wbjXAqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VoidCore.Hooks.PlayerHook.yml",
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.PlayerHook.html",
-          "hash": "2mOnu8PAXTV8vRVo9Gdaxw=="
+          "hash": "vI7fineJkuVqSCkEGeFOaA=="
         }
       },
       "is_incremental": false,
@@ -21,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.SceneHook.html",
-          "hash": "+q35MysB4S1hjE65z2e+lw=="
+          "hash": "H478xJ4DUxfwsyyd+Ty4ag=="
         }
       },
       "is_incremental": false,
@@ -33,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.UIHook.html",
-          "hash": "zl6VSbUXOHFCfQ2crht7Rw=="
+          "hash": "mQqz6SzPiJRZLqBtfvY/CQ=="
         }
       },
       "is_incremental": false,
@@ -45,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.Utility.Allocator.html",
-          "hash": "97IwnnFgC24BXOZy47PmXw=="
+          "hash": "fkCdaFG6MAbtrg68QENEvg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.Utility.IHook-1.html",
-          "hash": "NPNthqPefoquXkiUJib6dQ=="
+          "hash": "R1uLqnII1QSWZ8apKMCDdw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.Utility.IHook.html",
-          "hash": "pTjLs+jPfnRCt4mNsGZmLQ=="
+          "hash": "8RXa2LdYarFdwGpM/cV3cg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.Utility.PlayerAllocator.html",
-          "hash": "Icr8y4dwKfG28qZh8AXG0Q=="
+          "hash": "npLY+WaozfukKuIsVTPewQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.Utility.UIAllocator.html",
-          "hash": "8dXH6D4rB4hWz4c59hTLWA=="
+          "hash": "42ECtQE9E/iXjHsWqvIWSg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +156,7 @@
           "hash": "4QBhkKf1AXdK0GRofhttwQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -125,14 +173,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.LoadedAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.LoadedAudio.html",
+          "hash": "uRBDsafVpEofzHpkmiSLpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VoidCore.Mod.yml",
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Mod.html",
-          "hash": "Y/RV3MGIxRbIIVvCyxUIkQ=="
+          "hash": "ogC7TG6H8ryzfSpD5UY6Xg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +201,34 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.ModLog.html",
-          "hash": "0t3DzWf/Zev7mkuipuSsjQ=="
+          "hash": "o2Ztm7l3I6sRRe8hdWgmcg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.ResourceLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.ResourceLoader.html",
+          "hash": "cJe2QP2STbTF8tw/18s0Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Settings.html",
+          "hash": "ls3zlqd9ifaOn1fGA6ktgw=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.html",
-          "hash": "6XyFEl0X9dsLSWJ8AqzvLg=="
+          "hash": "ReejR2QrJ3lNCZTFwv1Low=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pVIfn3ccNZlFk9tHpRBbdA=="
+          "hash": "NpMW1X/GLT4CtSnXc8YWkA=="
         }
       },
       "is_incremental": false,
@@ -241,6 +325,13 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -250,14 +341,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 10
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 20,
           "skipped_file_count": 0
         }
       }

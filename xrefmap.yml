@@ -7,6 +7,48 @@ references:
   commentId: N:VoidCore
   fullName: VoidCore
   nameWithType: VoidCore
+- uid: VoidCore.Audio
+  name: Audio
+  href: api/VoidCore.Audio.html
+  commentId: T:VoidCore.Audio
+  fullName: VoidCore.Audio
+  nameWithType: Audio
+- uid: VoidCore.Audio.MusicCueFactory
+  name: Audio.MusicCueFactory
+  href: api/VoidCore.Audio.MusicCueFactory.html
+  commentId: T:VoidCore.Audio.MusicCueFactory
+  fullName: VoidCore.Audio.MusicCueFactory
+  nameWithType: Audio.MusicCueFactory
+- uid: VoidCore.Audio.MusicPack
+  name: Audio.MusicPack
+  href: api/VoidCore.Audio.MusicPack.html
+  commentId: T:VoidCore.Audio.MusicPack
+  fullName: VoidCore.Audio.MusicPack
+  nameWithType: Audio.MusicPack
+- uid: VoidCore.Events
+  name: Events
+  href: api/VoidCore.Events.html
+  commentId: T:VoidCore.Events
+  fullName: VoidCore.Events
+  nameWithType: Events
+- uid: VoidCore.Events.GameObjectCreated
+  name: GameObjectCreated
+  href: api/VoidCore.Events.html#VoidCore_Events_GameObjectCreated
+  commentId: E:VoidCore.Events.GameObjectCreated
+  fullName: VoidCore.Events.GameObjectCreated
+  nameWithType: Events.GameObjectCreated
+- uid: VoidCore.Events.OnDebugEnd
+  name: OnDebugEnd
+  href: api/VoidCore.Events.html#VoidCore_Events_OnDebugEnd
+  commentId: E:VoidCore.Events.OnDebugEnd
+  fullName: VoidCore.Events.OnDebugEnd
+  nameWithType: Events.OnDebugEnd
+- uid: VoidCore.Events.OnDebugStart
+  name: OnDebugStart
+  href: api/VoidCore.Events.html#VoidCore_Events_OnDebugStart
+  commentId: E:VoidCore.Events.OnDebugStart
+  fullName: VoidCore.Events.OnDebugStart
+  nameWithType: Events.OnDebugStart
 - uid: VoidCore.Hooks
   name: VoidCore.Hooks
   href: api/VoidCore.Hooks.html
@@ -238,6 +280,51 @@ references:
   isSpec: "True"
   fullName: VoidCore.Hooks.Utility.UIAllocator.Allocate
   nameWithType: UIAllocator.Allocate
+- uid: VoidCore.LoadedAudio
+  name: LoadedAudio
+  href: api/VoidCore.LoadedAudio.html
+  commentId: T:VoidCore.LoadedAudio
+  fullName: VoidCore.LoadedAudio
+  nameWithType: LoadedAudio
+- uid: VoidCore.LoadedAudio.Clip
+  name: Clip
+  href: api/VoidCore.LoadedAudio.html#VoidCore_LoadedAudio_Clip
+  commentId: P:VoidCore.LoadedAudio.Clip
+  fullName: VoidCore.LoadedAudio.Clip
+  nameWithType: LoadedAudio.Clip
+- uid: VoidCore.LoadedAudio.Clip*
+  name: Clip
+  href: api/VoidCore.LoadedAudio.html#VoidCore_LoadedAudio_Clip_
+  commentId: Overload:VoidCore.LoadedAudio.Clip
+  isSpec: "True"
+  fullName: VoidCore.LoadedAudio.Clip
+  nameWithType: LoadedAudio.Clip
+- uid: VoidCore.LoadedAudio.Dispose
+  name: Dispose()
+  href: api/VoidCore.LoadedAudio.html#VoidCore_LoadedAudio_Dispose
+  commentId: M:VoidCore.LoadedAudio.Dispose
+  fullName: VoidCore.LoadedAudio.Dispose()
+  nameWithType: LoadedAudio.Dispose()
+- uid: VoidCore.LoadedAudio.Dispose*
+  name: Dispose
+  href: api/VoidCore.LoadedAudio.html#VoidCore_LoadedAudio_Dispose_
+  commentId: Overload:VoidCore.LoadedAudio.Dispose
+  isSpec: "True"
+  fullName: VoidCore.LoadedAudio.Dispose
+  nameWithType: LoadedAudio.Dispose
+- uid: VoidCore.LoadedAudio.Finalize
+  name: Finalize()
+  href: api/VoidCore.LoadedAudio.html#VoidCore_LoadedAudio_Finalize
+  commentId: M:VoidCore.LoadedAudio.Finalize
+  fullName: VoidCore.LoadedAudio.Finalize()
+  nameWithType: LoadedAudio.Finalize()
+- uid: VoidCore.LoadedAudio.Finalize*
+  name: Finalize
+  href: api/VoidCore.LoadedAudio.html#VoidCore_LoadedAudio_Finalize_
+  commentId: Overload:VoidCore.LoadedAudio.Finalize
+  isSpec: "True"
+  fullName: VoidCore.LoadedAudio.Finalize
+  nameWithType: LoadedAudio.Finalize
 - uid: VoidCore.Mod
   name: Mod
   href: api/VoidCore.Mod.html
@@ -314,3 +401,109 @@ references:
   isSpec: "True"
   fullName: VoidCore.ModLog.LogError
   nameWithType: ModLog.LogError
+- uid: VoidCore.ResourceLoader
+  name: ResourceLoader
+  href: api/VoidCore.ResourceLoader.html
+  commentId: T:VoidCore.ResourceLoader
+  fullName: VoidCore.ResourceLoader
+  nameWithType: ResourceLoader
+- uid: VoidCore.ResourceLoader.LoadResource(System.String,System.Reflection.Assembly)
+  name: LoadResource(String, Assembly)
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResource_System_String_System_Reflection_Assembly_
+  commentId: M:VoidCore.ResourceLoader.LoadResource(System.String,System.Reflection.Assembly)
+  fullName: VoidCore.ResourceLoader.LoadResource(System.String, System.Reflection.Assembly)
+  nameWithType: ResourceLoader.LoadResource(String, Assembly)
+- uid: VoidCore.ResourceLoader.LoadResource*
+  name: LoadResource
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResource_
+  commentId: Overload:VoidCore.ResourceLoader.LoadResource
+  isSpec: "True"
+  fullName: VoidCore.ResourceLoader.LoadResource
+  nameWithType: ResourceLoader.LoadResource
+- uid: VoidCore.ResourceLoader.LoadResourceAudio(System.String,System.Reflection.Assembly)
+  name: LoadResourceAudio(String, Assembly)
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceAudio_System_String_System_Reflection_Assembly_
+  commentId: M:VoidCore.ResourceLoader.LoadResourceAudio(System.String,System.Reflection.Assembly)
+  fullName: VoidCore.ResourceLoader.LoadResourceAudio(System.String, System.Reflection.Assembly)
+  nameWithType: ResourceLoader.LoadResourceAudio(String, Assembly)
+- uid: VoidCore.ResourceLoader.LoadResourceAudio*
+  name: LoadResourceAudio
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceAudio_
+  commentId: Overload:VoidCore.ResourceLoader.LoadResourceAudio
+  isSpec: "True"
+  fullName: VoidCore.ResourceLoader.LoadResourceAudio
+  nameWithType: ResourceLoader.LoadResourceAudio
+- uid: VoidCore.ResourceLoader.LoadResourceRaw(System.String,System.Reflection.Assembly)
+  name: LoadResourceRaw(String, Assembly)
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceRaw_System_String_System_Reflection_Assembly_
+  commentId: M:VoidCore.ResourceLoader.LoadResourceRaw(System.String,System.Reflection.Assembly)
+  fullName: VoidCore.ResourceLoader.LoadResourceRaw(System.String, System.Reflection.Assembly)
+  nameWithType: ResourceLoader.LoadResourceRaw(String, Assembly)
+- uid: VoidCore.ResourceLoader.LoadResourceRaw*
+  name: LoadResourceRaw
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceRaw_
+  commentId: Overload:VoidCore.ResourceLoader.LoadResourceRaw
+  isSpec: "True"
+  fullName: VoidCore.ResourceLoader.LoadResourceRaw
+  nameWithType: ResourceLoader.LoadResourceRaw
+- uid: VoidCore.ResourceLoader.LoadResourceSprite(System.String,System.Reflection.Assembly,UnityEngine.SpriteMeshType,System.Nullable{UnityEngine.Vector4})
+  name: LoadResourceSprite(String, Assembly, SpriteMeshType, Nullable<Vector4>)
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceSprite_System_String_System_Reflection_Assembly_UnityEngine_SpriteMeshType_System_Nullable_UnityEngine_Vector4__
+  commentId: M:VoidCore.ResourceLoader.LoadResourceSprite(System.String,System.Reflection.Assembly,UnityEngine.SpriteMeshType,System.Nullable{UnityEngine.Vector4})
+  name.vb: LoadResourceSprite(String, Assembly, SpriteMeshType, Nullable(Of Vector4))
+  fullName: VoidCore.ResourceLoader.LoadResourceSprite(System.String, System.Reflection.Assembly, UnityEngine.SpriteMeshType, System.Nullable<UnityEngine.Vector4>)
+  fullName.vb: VoidCore.ResourceLoader.LoadResourceSprite(System.String, System.Reflection.Assembly, UnityEngine.SpriteMeshType, System.Nullable(Of UnityEngine.Vector4))
+  nameWithType: ResourceLoader.LoadResourceSprite(String, Assembly, SpriteMeshType, Nullable<Vector4>)
+  nameWithType.vb: ResourceLoader.LoadResourceSprite(String, Assembly, SpriteMeshType, Nullable(Of Vector4))
+- uid: VoidCore.ResourceLoader.LoadResourceSprite*
+  name: LoadResourceSprite
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceSprite_
+  commentId: Overload:VoidCore.ResourceLoader.LoadResourceSprite
+  isSpec: "True"
+  fullName: VoidCore.ResourceLoader.LoadResourceSprite
+  nameWithType: ResourceLoader.LoadResourceSprite
+- uid: VoidCore.ResourceLoader.LoadResourceTexture(System.String,System.Reflection.Assembly)
+  name: LoadResourceTexture(String, Assembly)
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceTexture_System_String_System_Reflection_Assembly_
+  commentId: M:VoidCore.ResourceLoader.LoadResourceTexture(System.String,System.Reflection.Assembly)
+  fullName: VoidCore.ResourceLoader.LoadResourceTexture(System.String, System.Reflection.Assembly)
+  nameWithType: ResourceLoader.LoadResourceTexture(String, Assembly)
+- uid: VoidCore.ResourceLoader.LoadResourceTexture*
+  name: LoadResourceTexture
+  href: api/VoidCore.ResourceLoader.html#VoidCore_ResourceLoader_LoadResourceTexture_
+  commentId: Overload:VoidCore.ResourceLoader.LoadResourceTexture
+  isSpec: "True"
+  fullName: VoidCore.ResourceLoader.LoadResourceTexture
+  nameWithType: ResourceLoader.LoadResourceTexture
+- uid: VoidCore.Settings
+  name: Settings
+  href: api/VoidCore.Settings.html
+  commentId: T:VoidCore.Settings
+  fullName: VoidCore.Settings
+  nameWithType: Settings
+- uid: VoidCore.Settings.DebugMode
+  name: DebugMode
+  href: api/VoidCore.Settings.html#VoidCore_Settings_DebugMode
+  commentId: P:VoidCore.Settings.DebugMode
+  fullName: VoidCore.Settings.DebugMode
+  nameWithType: Settings.DebugMode
+- uid: VoidCore.Settings.DebugMode*
+  name: DebugMode
+  href: api/VoidCore.Settings.html#VoidCore_Settings_DebugMode_
+  commentId: Overload:VoidCore.Settings.DebugMode
+  isSpec: "True"
+  fullName: VoidCore.Settings.DebugMode
+  nameWithType: Settings.DebugMode
+- uid: VoidCore.Settings.GameObjectTracking
+  name: GameObjectTracking
+  href: api/VoidCore.Settings.html#VoidCore_Settings_GameObjectTracking
+  commentId: P:VoidCore.Settings.GameObjectTracking
+  fullName: VoidCore.Settings.GameObjectTracking
+  nameWithType: Settings.GameObjectTracking
+- uid: VoidCore.Settings.GameObjectTracking*
+  name: GameObjectTracking
+  href: api/VoidCore.Settings.html#VoidCore_Settings_GameObjectTracking_
+  commentId: Overload:VoidCore.Settings.GameObjectTracking
+  isSpec: "True"
+  fullName: VoidCore.Settings.GameObjectTracking
+  nameWithType: Settings.GameObjectTracking
