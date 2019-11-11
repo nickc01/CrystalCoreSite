@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IHook&lt;Alloc&gt;
+    <title>Interface IHook&lt;TMod&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IHook&lt;Alloc&gt;
+    <meta name="title" content="Interface IHook&lt;TMod&gt;
    ">
     <meta name="generator" content="docfx 2.46.0.0">
     
@@ -71,21 +71,25 @@
             <article class="content wrap" id="_content" data-uid="VoidCore.Hooks.Utility.IHook`1">
   
   
-  <h1 id="VoidCore_Hooks_Utility_IHook_1" data-uid="VoidCore.Hooks.Utility.IHook`1" class="text-break">Interface IHook&lt;Alloc&gt;
+  <h1 id="VoidCore_Hooks_Utility_IHook_1" data-uid="VoidCore.Hooks.Utility.IHook`1" class="text-break">Interface IHook&lt;TMod&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The base interface for implementing hooks. Hooks are ways in which you can hook into existing systems of the game.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="VoidCore.Hooks.Utility.IHook.html#VoidCore_Hooks_Utility_IHook_LoadHook">IHook.LoadHook()</a>
+      <a class="xref" href="VoidCore.Hooks.Internal.IHookBase.html#VoidCore_Hooks_Internal_IHookBase_LoadHook_Modding_IMod_">IHookBase.LoadHook(IMod)</a>
+    </div>
+    <div>
+      <a class="xref" href="VoidCore.Hooks.Internal.IHookBase.html#VoidCore_Hooks_Internal_IHookBase_UnloadHook_Modding_IMod_">IHookBase.UnloadHook(IMod)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="VoidCore.Hooks.Utility.html">VoidCore.Hooks.Utility</a></h6>
   <h6><strong>Assembly</strong>: VoidCore.dll</h6>
   <h5 id="VoidCore_Hooks_Utility_IHook_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IHook&lt;Alloc&gt; : IHook where Alloc : Allocator</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IHook&lt;TMod&gt; : IHookBase where TMod : IMod</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -97,8 +101,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">Alloc</span></td>
-        <td></td>
+        <td><span class="parametername">TMod</span></td>
+        <td><p>The mod that this hook is bound to. The hook is loaded when the mod is loaded, and the hook is unloaded when the mod is unloaded</p>
+</td>
       </tr>
     </tbody>
   </table>

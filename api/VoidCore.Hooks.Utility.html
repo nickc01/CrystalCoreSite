@@ -77,20 +77,23 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="VoidCore.Hooks.Utility.Allocator.html">Allocator</a></h4>
-      <section></section>
-      <h4><a class="xref" href="VoidCore.Hooks.Utility.PlayerAllocator.html">PlayerAllocator</a></h4>
-      <section><p>Determines how the PlayerHooks are loaded into the game</p>
+      <h4><a class="xref" href="VoidCore.Hooks.Utility.HookInjector.html">HookInjector</a></h4>
+      <section><p>The base class for implementing a hook injector. It is used to determine what gameObjects in the scene gets the hooks attached to it as Components</p>
 </section>
-      <h4><a class="xref" href="VoidCore.Hooks.Utility.UIAllocator.html">UIAllocator</a></h4>
-      <section><p>Determines how the UIHooks are loaded into the game.</p>
+      <h4><a class="xref" href="VoidCore.Hooks.Utility.InjectionAllocator-1.html">InjectionAllocator&lt;Injector&gt;</a></h4>
+      <section><p>An allocator that is used to hook into gameObjects. It does this by injecting the hooks as components onto it</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="VoidCore.Hooks.Utility.IHook.html">IHook</a></h4>
-      <section></section>
-      <h4><a class="xref" href="VoidCore.Hooks.Utility.IHook-1.html">IHook&lt;Alloc&gt;</a></h4>
-      <section></section>
+      <h4><a class="xref" href="VoidCore.Hooks.Utility.IAllocator.html">IAllocator</a></h4>
+      <section><p>Used to customize how the hooks are allocated and deallocated</p>
+</section>
+      <h4><a class="xref" href="VoidCore.Hooks.Utility.IHook-1.html">IHook&lt;TMod&gt;</a></h4>
+      <section><p>The base interface for implementing hooks. Hooks are ways in which you can hook into existing systems of the game.</p>
+</section>
+      <h4><a class="xref" href="VoidCore.Hooks.Utility.IHook-2.html">IHook&lt;TMod, Alloc&gt;</a></h4>
+      <section><p>Similar to <a class="xref" href="VoidCore.Hooks.Utility.IHook-1.html">IHook&lt;TMod&gt;</a>, but has the ability to change how the hook is created and destroyed. This can be used to greatly customize the hooking process</p>
+</section>
 </article>
           </div>
           

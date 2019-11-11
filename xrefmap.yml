@@ -55,231 +55,444 @@ references:
   commentId: N:VoidCore.Hooks
   fullName: VoidCore.Hooks
   nameWithType: VoidCore.Hooks
-- uid: VoidCore.Hooks.PlayerHook
-  name: PlayerHook
-  href: api/VoidCore.Hooks.PlayerHook.html
-  commentId: T:VoidCore.Hooks.PlayerHook
-  fullName: VoidCore.Hooks.PlayerHook
-  nameWithType: PlayerHook
-- uid: VoidCore.Hooks.PlayerHook.VoidCore#Hooks#Utility#IHook#LoadHook
-  name: IHook.LoadHook()
-  href: api/VoidCore.Hooks.PlayerHook.html#VoidCore_Hooks_PlayerHook_VoidCore_Hooks_Utility_IHook_LoadHook
-  commentId: M:VoidCore.Hooks.PlayerHook.VoidCore#Hooks#Utility#IHook#LoadHook
-  name.vb: VoidCore.Hooks.Utility.IHook.LoadHook()
-  fullName: VoidCore.Hooks.PlayerHook.VoidCore.Hooks.Utility.IHook.LoadHook()
-  nameWithType: PlayerHook.IHook.LoadHook()
-  nameWithType.vb: PlayerHook.VoidCore.Hooks.Utility.IHook.LoadHook()
-- uid: VoidCore.Hooks.PlayerHook.VoidCore#Hooks#Utility#IHook#LoadHook*
-  name: IHook.LoadHook
-  href: api/VoidCore.Hooks.PlayerHook.html#VoidCore_Hooks_PlayerHook_VoidCore_Hooks_Utility_IHook_LoadHook_
-  commentId: Overload:VoidCore.Hooks.PlayerHook.VoidCore#Hooks#Utility#IHook#LoadHook
+- uid: VoidCore.Hooks.Internal
+  name: VoidCore.Hooks.Internal
+  href: api/VoidCore.Hooks.Internal.html
+  commentId: N:VoidCore.Hooks.Internal
+  fullName: VoidCore.Hooks.Internal
+  nameWithType: VoidCore.Hooks.Internal
+- uid: VoidCore.Hooks.Internal.IHookBase
+  name: IHookBase
+  href: api/VoidCore.Hooks.Internal.IHookBase.html
+  commentId: T:VoidCore.Hooks.Internal.IHookBase
+  fullName: VoidCore.Hooks.Internal.IHookBase
+  nameWithType: IHookBase
+- uid: VoidCore.Hooks.Internal.IHookBase.LoadHook(Modding.IMod)
+  name: LoadHook(IMod)
+  href: api/VoidCore.Hooks.Internal.IHookBase.html#VoidCore_Hooks_Internal_IHookBase_LoadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.Internal.IHookBase.LoadHook(Modding.IMod)
+  fullName: VoidCore.Hooks.Internal.IHookBase.LoadHook(Modding.IMod)
+  nameWithType: IHookBase.LoadHook(IMod)
+- uid: VoidCore.Hooks.Internal.IHookBase.LoadHook*
+  name: LoadHook
+  href: api/VoidCore.Hooks.Internal.IHookBase.html#VoidCore_Hooks_Internal_IHookBase_LoadHook_
+  commentId: Overload:VoidCore.Hooks.Internal.IHookBase.LoadHook
   isSpec: "True"
-  name.vb: VoidCore.Hooks.Utility.IHook.LoadHook
-  fullName: VoidCore.Hooks.PlayerHook.VoidCore.Hooks.Utility.IHook.LoadHook
-  nameWithType: PlayerHook.IHook.LoadHook
-  nameWithType.vb: PlayerHook.VoidCore.Hooks.Utility.IHook.LoadHook
-- uid: VoidCore.Hooks.SceneHook
-  name: SceneHook
-  href: api/VoidCore.Hooks.SceneHook.html
-  commentId: T:VoidCore.Hooks.SceneHook
-  fullName: VoidCore.Hooks.SceneHook
-  nameWithType: SceneHook
-- uid: VoidCore.Hooks.SceneHook.ActiveScene
+  fullName: VoidCore.Hooks.Internal.IHookBase.LoadHook
+  nameWithType: IHookBase.LoadHook
+- uid: VoidCore.Hooks.Internal.IHookBase.UnloadHook(Modding.IMod)
+  name: UnloadHook(IMod)
+  href: api/VoidCore.Hooks.Internal.IHookBase.html#VoidCore_Hooks_Internal_IHookBase_UnloadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.Internal.IHookBase.UnloadHook(Modding.IMod)
+  fullName: VoidCore.Hooks.Internal.IHookBase.UnloadHook(Modding.IMod)
+  nameWithType: IHookBase.UnloadHook(IMod)
+- uid: VoidCore.Hooks.Internal.IHookBase.UnloadHook*
+  name: UnloadHook
+  href: api/VoidCore.Hooks.Internal.IHookBase.html#VoidCore_Hooks_Internal_IHookBase_UnloadHook_
+  commentId: Overload:VoidCore.Hooks.Internal.IHookBase.UnloadHook
+  isSpec: "True"
+  fullName: VoidCore.Hooks.Internal.IHookBase.UnloadHook
+  nameWithType: IHookBase.UnloadHook
+- uid: VoidCore.Hooks.Internal.PlayerInjector
+  name: PlayerInjector
+  href: api/VoidCore.Hooks.Internal.PlayerInjector.html
+  commentId: T:VoidCore.Hooks.Internal.PlayerInjector
+  fullName: VoidCore.Hooks.Internal.PlayerInjector
+  nameWithType: PlayerInjector
+- uid: VoidCore.Hooks.Internal.PlayerInjector.Initialize
+  name: Initialize()
+  href: api/VoidCore.Hooks.Internal.PlayerInjector.html#VoidCore_Hooks_Internal_PlayerInjector_Initialize
+  commentId: M:VoidCore.Hooks.Internal.PlayerInjector.Initialize
+  fullName: VoidCore.Hooks.Internal.PlayerInjector.Initialize()
+  nameWithType: PlayerInjector.Initialize()
+- uid: VoidCore.Hooks.Internal.PlayerInjector.Initialize*
+  name: Initialize
+  href: api/VoidCore.Hooks.Internal.PlayerInjector.html#VoidCore_Hooks_Internal_PlayerInjector_Initialize_
+  commentId: Overload:VoidCore.Hooks.Internal.PlayerInjector.Initialize
+  isSpec: "True"
+  fullName: VoidCore.Hooks.Internal.PlayerInjector.Initialize
+  nameWithType: PlayerInjector.Initialize
+- uid: VoidCore.Hooks.Internal.UIInjector
+  name: UIInjector
+  href: api/VoidCore.Hooks.Internal.UIInjector.html
+  commentId: T:VoidCore.Hooks.Internal.UIInjector
+  fullName: VoidCore.Hooks.Internal.UIInjector
+  nameWithType: UIInjector
+- uid: VoidCore.Hooks.Internal.UIInjector.Initialize
+  name: Initialize()
+  href: api/VoidCore.Hooks.Internal.UIInjector.html#VoidCore_Hooks_Internal_UIInjector_Initialize
+  commentId: M:VoidCore.Hooks.Internal.UIInjector.Initialize
+  fullName: VoidCore.Hooks.Internal.UIInjector.Initialize()
+  nameWithType: UIInjector.Initialize()
+- uid: VoidCore.Hooks.Internal.UIInjector.Initialize*
+  name: Initialize
+  href: api/VoidCore.Hooks.Internal.UIInjector.html#VoidCore_Hooks_Internal_UIInjector_Initialize_
+  commentId: Overload:VoidCore.Hooks.Internal.UIInjector.Initialize
+  isSpec: "True"
+  fullName: VoidCore.Hooks.Internal.UIInjector.Initialize
+  nameWithType: UIInjector.Initialize
+- uid: VoidCore.Hooks.PlayerHook`1
+  name: PlayerHook<Mod>
+  href: api/VoidCore.Hooks.PlayerHook-1.html
+  commentId: T:VoidCore.Hooks.PlayerHook`1
+  name.vb: PlayerHook(Of Mod)
+  fullName: VoidCore.Hooks.PlayerHook<Mod>
+  fullName.vb: VoidCore.Hooks.PlayerHook(Of Mod)
+  nameWithType: PlayerHook<Mod>
+  nameWithType.vb: PlayerHook(Of Mod)
+- uid: VoidCore.Hooks.PlayerHook`1.LoadHook(Modding.IMod)
+  name: LoadHook(IMod)
+  href: api/VoidCore.Hooks.PlayerHook-1.html#VoidCore_Hooks_PlayerHook_1_LoadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.PlayerHook`1.LoadHook(Modding.IMod)
+  fullName: VoidCore.Hooks.PlayerHook<Mod>.LoadHook(Modding.IMod)
+  fullName.vb: VoidCore.Hooks.PlayerHook(Of Mod).LoadHook(Modding.IMod)
+  nameWithType: PlayerHook<Mod>.LoadHook(IMod)
+  nameWithType.vb: PlayerHook(Of Mod).LoadHook(IMod)
+- uid: VoidCore.Hooks.PlayerHook`1.LoadHook*
+  name: LoadHook
+  href: api/VoidCore.Hooks.PlayerHook-1.html#VoidCore_Hooks_PlayerHook_1_LoadHook_
+  commentId: Overload:VoidCore.Hooks.PlayerHook`1.LoadHook
+  isSpec: "True"
+  fullName: VoidCore.Hooks.PlayerHook<Mod>.LoadHook
+  fullName.vb: VoidCore.Hooks.PlayerHook(Of Mod).LoadHook
+  nameWithType: PlayerHook<Mod>.LoadHook
+  nameWithType.vb: PlayerHook(Of Mod).LoadHook
+- uid: VoidCore.Hooks.PlayerHook`1.UnloadHook(Modding.IMod)
+  name: UnloadHook(IMod)
+  href: api/VoidCore.Hooks.PlayerHook-1.html#VoidCore_Hooks_PlayerHook_1_UnloadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.PlayerHook`1.UnloadHook(Modding.IMod)
+  fullName: VoidCore.Hooks.PlayerHook<Mod>.UnloadHook(Modding.IMod)
+  fullName.vb: VoidCore.Hooks.PlayerHook(Of Mod).UnloadHook(Modding.IMod)
+  nameWithType: PlayerHook<Mod>.UnloadHook(IMod)
+  nameWithType.vb: PlayerHook(Of Mod).UnloadHook(IMod)
+- uid: VoidCore.Hooks.PlayerHook`1.UnloadHook*
+  name: UnloadHook
+  href: api/VoidCore.Hooks.PlayerHook-1.html#VoidCore_Hooks_PlayerHook_1_UnloadHook_
+  commentId: Overload:VoidCore.Hooks.PlayerHook`1.UnloadHook
+  isSpec: "True"
+  fullName: VoidCore.Hooks.PlayerHook<Mod>.UnloadHook
+  fullName.vb: VoidCore.Hooks.PlayerHook(Of Mod).UnloadHook
+  nameWithType: PlayerHook<Mod>.UnloadHook
+  nameWithType.vb: PlayerHook(Of Mod).UnloadHook
+- uid: VoidCore.Hooks.SceneHook`1
+  name: SceneHook<Mod>
+  href: api/VoidCore.Hooks.SceneHook-1.html
+  commentId: T:VoidCore.Hooks.SceneHook`1
+  name.vb: SceneHook(Of Mod)
+  fullName: VoidCore.Hooks.SceneHook<Mod>
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod)
+  nameWithType: SceneHook<Mod>
+  nameWithType.vb: SceneHook(Of Mod)
+- uid: VoidCore.Hooks.SceneHook`1.ActiveScene
   name: ActiveScene
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_ActiveScene
-  commentId: P:VoidCore.Hooks.SceneHook.ActiveScene
-  fullName: VoidCore.Hooks.SceneHook.ActiveScene
-  nameWithType: SceneHook.ActiveScene
-- uid: VoidCore.Hooks.SceneHook.ActiveScene*
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_ActiveScene
+  commentId: P:VoidCore.Hooks.SceneHook`1.ActiveScene
+  fullName: VoidCore.Hooks.SceneHook<Mod>.ActiveScene
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).ActiveScene
+  nameWithType: SceneHook<Mod>.ActiveScene
+  nameWithType.vb: SceneHook(Of Mod).ActiveScene
+- uid: VoidCore.Hooks.SceneHook`1.ActiveScene*
   name: ActiveScene
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_ActiveScene_
-  commentId: Overload:VoidCore.Hooks.SceneHook.ActiveScene
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_ActiveScene_
+  commentId: Overload:VoidCore.Hooks.SceneHook`1.ActiveScene
   isSpec: "True"
-  fullName: VoidCore.Hooks.SceneHook.ActiveScene
-  nameWithType: SceneHook.ActiveScene
-- uid: VoidCore.Hooks.SceneHook.LoadedScenes
+  fullName: VoidCore.Hooks.SceneHook<Mod>.ActiveScene
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).ActiveScene
+  nameWithType: SceneHook<Mod>.ActiveScene
+  nameWithType.vb: SceneHook(Of Mod).ActiveScene
+- uid: VoidCore.Hooks.SceneHook`1.LoadedScenes
   name: LoadedScenes
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_LoadedScenes
-  commentId: P:VoidCore.Hooks.SceneHook.LoadedScenes
-  fullName: VoidCore.Hooks.SceneHook.LoadedScenes
-  nameWithType: SceneHook.LoadedScenes
-- uid: VoidCore.Hooks.SceneHook.LoadedScenes*
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_LoadedScenes
+  commentId: P:VoidCore.Hooks.SceneHook`1.LoadedScenes
+  fullName: VoidCore.Hooks.SceneHook<Mod>.LoadedScenes
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).LoadedScenes
+  nameWithType: SceneHook<Mod>.LoadedScenes
+  nameWithType.vb: SceneHook(Of Mod).LoadedScenes
+- uid: VoidCore.Hooks.SceneHook`1.LoadedScenes*
   name: LoadedScenes
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_LoadedScenes_
-  commentId: Overload:VoidCore.Hooks.SceneHook.LoadedScenes
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_LoadedScenes_
+  commentId: Overload:VoidCore.Hooks.SceneHook`1.LoadedScenes
   isSpec: "True"
-  fullName: VoidCore.Hooks.SceneHook.LoadedScenes
-  nameWithType: SceneHook.LoadedScenes
-- uid: VoidCore.Hooks.SceneHook.OnActiveSceneChange(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.LoadedScenes
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).LoadedScenes
+  nameWithType: SceneHook<Mod>.LoadedScenes
+  nameWithType.vb: SceneHook(Of Mod).LoadedScenes
+- uid: VoidCore.Hooks.SceneHook`1.OnActiveSceneChange(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
   name: OnActiveSceneChange(Scene, Scene)
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_OnActiveSceneChange_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_
-  commentId: M:VoidCore.Hooks.SceneHook.OnActiveSceneChange(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
-  fullName: VoidCore.Hooks.SceneHook.OnActiveSceneChange(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.Scene)
-  nameWithType: SceneHook.OnActiveSceneChange(Scene, Scene)
-- uid: VoidCore.Hooks.SceneHook.OnActiveSceneChange*
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_OnActiveSceneChange_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_
+  commentId: M:VoidCore.Hooks.SceneHook`1.OnActiveSceneChange(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.OnActiveSceneChange(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.Scene)
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).OnActiveSceneChange(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.Scene)
+  nameWithType: SceneHook<Mod>.OnActiveSceneChange(Scene, Scene)
+  nameWithType.vb: SceneHook(Of Mod).OnActiveSceneChange(Scene, Scene)
+- uid: VoidCore.Hooks.SceneHook`1.OnActiveSceneChange*
   name: OnActiveSceneChange
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_OnActiveSceneChange_
-  commentId: Overload:VoidCore.Hooks.SceneHook.OnActiveSceneChange
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_OnActiveSceneChange_
+  commentId: Overload:VoidCore.Hooks.SceneHook`1.OnActiveSceneChange
   isSpec: "True"
-  fullName: VoidCore.Hooks.SceneHook.OnActiveSceneChange
-  nameWithType: SceneHook.OnActiveSceneChange
-- uid: VoidCore.Hooks.SceneHook.OnSceneAddition(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.OnActiveSceneChange
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).OnActiveSceneChange
+  nameWithType: SceneHook<Mod>.OnActiveSceneChange
+  nameWithType.vb: SceneHook(Of Mod).OnActiveSceneChange
+- uid: VoidCore.Hooks.SceneHook`1.OnSceneAddition(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
   name: OnSceneAddition(Scene, LoadSceneMode)
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_OnSceneAddition_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_
-  commentId: M:VoidCore.Hooks.SceneHook.OnSceneAddition(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
-  fullName: VoidCore.Hooks.SceneHook.OnSceneAddition(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode)
-  nameWithType: SceneHook.OnSceneAddition(Scene, LoadSceneMode)
-- uid: VoidCore.Hooks.SceneHook.OnSceneAddition*
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_OnSceneAddition_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_
+  commentId: M:VoidCore.Hooks.SceneHook`1.OnSceneAddition(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.OnSceneAddition(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode)
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).OnSceneAddition(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode)
+  nameWithType: SceneHook<Mod>.OnSceneAddition(Scene, LoadSceneMode)
+  nameWithType.vb: SceneHook(Of Mod).OnSceneAddition(Scene, LoadSceneMode)
+- uid: VoidCore.Hooks.SceneHook`1.OnSceneAddition*
   name: OnSceneAddition
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_OnSceneAddition_
-  commentId: Overload:VoidCore.Hooks.SceneHook.OnSceneAddition
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_OnSceneAddition_
+  commentId: Overload:VoidCore.Hooks.SceneHook`1.OnSceneAddition
   isSpec: "True"
-  fullName: VoidCore.Hooks.SceneHook.OnSceneAddition
-  nameWithType: SceneHook.OnSceneAddition
-- uid: VoidCore.Hooks.SceneHook.OnSceneRemoval(UnityEngine.SceneManagement.Scene)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.OnSceneAddition
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).OnSceneAddition
+  nameWithType: SceneHook<Mod>.OnSceneAddition
+  nameWithType.vb: SceneHook(Of Mod).OnSceneAddition
+- uid: VoidCore.Hooks.SceneHook`1.OnSceneRemoval(UnityEngine.SceneManagement.Scene)
   name: OnSceneRemoval(Scene)
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_OnSceneRemoval_UnityEngine_SceneManagement_Scene_
-  commentId: M:VoidCore.Hooks.SceneHook.OnSceneRemoval(UnityEngine.SceneManagement.Scene)
-  fullName: VoidCore.Hooks.SceneHook.OnSceneRemoval(UnityEngine.SceneManagement.Scene)
-  nameWithType: SceneHook.OnSceneRemoval(Scene)
-- uid: VoidCore.Hooks.SceneHook.OnSceneRemoval*
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_OnSceneRemoval_UnityEngine_SceneManagement_Scene_
+  commentId: M:VoidCore.Hooks.SceneHook`1.OnSceneRemoval(UnityEngine.SceneManagement.Scene)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.OnSceneRemoval(UnityEngine.SceneManagement.Scene)
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).OnSceneRemoval(UnityEngine.SceneManagement.Scene)
+  nameWithType: SceneHook<Mod>.OnSceneRemoval(Scene)
+  nameWithType.vb: SceneHook(Of Mod).OnSceneRemoval(Scene)
+- uid: VoidCore.Hooks.SceneHook`1.OnSceneRemoval*
   name: OnSceneRemoval
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_OnSceneRemoval_
-  commentId: Overload:VoidCore.Hooks.SceneHook.OnSceneRemoval
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_OnSceneRemoval_
+  commentId: Overload:VoidCore.Hooks.SceneHook`1.OnSceneRemoval
   isSpec: "True"
-  fullName: VoidCore.Hooks.SceneHook.OnSceneRemoval
-  nameWithType: SceneHook.OnSceneRemoval
-- uid: VoidCore.Hooks.SceneHook.VoidCore#Hooks#Utility#IHook#LoadHook
-  name: IHook.LoadHook()
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_VoidCore_Hooks_Utility_IHook_LoadHook
-  commentId: M:VoidCore.Hooks.SceneHook.VoidCore#Hooks#Utility#IHook#LoadHook
-  name.vb: VoidCore.Hooks.Utility.IHook.LoadHook()
-  fullName: VoidCore.Hooks.SceneHook.VoidCore.Hooks.Utility.IHook.LoadHook()
-  nameWithType: SceneHook.IHook.LoadHook()
-  nameWithType.vb: SceneHook.VoidCore.Hooks.Utility.IHook.LoadHook()
-- uid: VoidCore.Hooks.SceneHook.VoidCore#Hooks#Utility#IHook#LoadHook*
-  name: IHook.LoadHook
-  href: api/VoidCore.Hooks.SceneHook.html#VoidCore_Hooks_SceneHook_VoidCore_Hooks_Utility_IHook_LoadHook_
-  commentId: Overload:VoidCore.Hooks.SceneHook.VoidCore#Hooks#Utility#IHook#LoadHook
+  fullName: VoidCore.Hooks.SceneHook<Mod>.OnSceneRemoval
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).OnSceneRemoval
+  nameWithType: SceneHook<Mod>.OnSceneRemoval
+  nameWithType.vb: SceneHook(Of Mod).OnSceneRemoval
+- uid: VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#LoadHook(Modding.IMod)
+  name: IHookBase.LoadHook(IMod)
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_LoadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#LoadHook(Modding.IMod)
+  name.vb: VoidCore.Hooks.Internal.IHookBase.LoadHook(IMod)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.VoidCore.Hooks.Internal.IHookBase.LoadHook(Modding.IMod)
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.LoadHook(Modding.IMod)
+  nameWithType: SceneHook<Mod>.IHookBase.LoadHook(IMod)
+  nameWithType.vb: SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.LoadHook(IMod)
+- uid: VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#LoadHook*
+  name: IHookBase.LoadHook
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_LoadHook_
+  commentId: Overload:VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#LoadHook
   isSpec: "True"
-  name.vb: VoidCore.Hooks.Utility.IHook.LoadHook
-  fullName: VoidCore.Hooks.SceneHook.VoidCore.Hooks.Utility.IHook.LoadHook
-  nameWithType: SceneHook.IHook.LoadHook
-  nameWithType.vb: SceneHook.VoidCore.Hooks.Utility.IHook.LoadHook
-- uid: VoidCore.Hooks.UIHook
-  name: UIHook
-  href: api/VoidCore.Hooks.UIHook.html
-  commentId: T:VoidCore.Hooks.UIHook
-  fullName: VoidCore.Hooks.UIHook
-  nameWithType: UIHook
-- uid: VoidCore.Hooks.UIHook.VoidCore#Hooks#Utility#IHook#LoadHook
-  name: IHook.LoadHook()
-  href: api/VoidCore.Hooks.UIHook.html#VoidCore_Hooks_UIHook_VoidCore_Hooks_Utility_IHook_LoadHook
-  commentId: M:VoidCore.Hooks.UIHook.VoidCore#Hooks#Utility#IHook#LoadHook
-  name.vb: VoidCore.Hooks.Utility.IHook.LoadHook()
-  fullName: VoidCore.Hooks.UIHook.VoidCore.Hooks.Utility.IHook.LoadHook()
-  nameWithType: UIHook.IHook.LoadHook()
-  nameWithType.vb: UIHook.VoidCore.Hooks.Utility.IHook.LoadHook()
-- uid: VoidCore.Hooks.UIHook.VoidCore#Hooks#Utility#IHook#LoadHook*
-  name: IHook.LoadHook
-  href: api/VoidCore.Hooks.UIHook.html#VoidCore_Hooks_UIHook_VoidCore_Hooks_Utility_IHook_LoadHook_
-  commentId: Overload:VoidCore.Hooks.UIHook.VoidCore#Hooks#Utility#IHook#LoadHook
+  name.vb: VoidCore.Hooks.Internal.IHookBase.LoadHook
+  fullName: VoidCore.Hooks.SceneHook<Mod>.VoidCore.Hooks.Internal.IHookBase.LoadHook
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.LoadHook
+  nameWithType: SceneHook<Mod>.IHookBase.LoadHook
+  nameWithType.vb: SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.LoadHook
+- uid: VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#UnloadHook(Modding.IMod)
+  name: IHookBase.UnloadHook(IMod)
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_UnloadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#UnloadHook(Modding.IMod)
+  name.vb: VoidCore.Hooks.Internal.IHookBase.UnloadHook(IMod)
+  fullName: VoidCore.Hooks.SceneHook<Mod>.VoidCore.Hooks.Internal.IHookBase.UnloadHook(Modding.IMod)
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.UnloadHook(Modding.IMod)
+  nameWithType: SceneHook<Mod>.IHookBase.UnloadHook(IMod)
+  nameWithType.vb: SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.UnloadHook(IMod)
+- uid: VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#UnloadHook*
+  name: IHookBase.UnloadHook
+  href: api/VoidCore.Hooks.SceneHook-1.html#VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_UnloadHook_
+  commentId: Overload:VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#UnloadHook
   isSpec: "True"
-  name.vb: VoidCore.Hooks.Utility.IHook.LoadHook
-  fullName: VoidCore.Hooks.UIHook.VoidCore.Hooks.Utility.IHook.LoadHook
-  nameWithType: UIHook.IHook.LoadHook
-  nameWithType.vb: UIHook.VoidCore.Hooks.Utility.IHook.LoadHook
+  name.vb: VoidCore.Hooks.Internal.IHookBase.UnloadHook
+  fullName: VoidCore.Hooks.SceneHook<Mod>.VoidCore.Hooks.Internal.IHookBase.UnloadHook
+  fullName.vb: VoidCore.Hooks.SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.UnloadHook
+  nameWithType: SceneHook<Mod>.IHookBase.UnloadHook
+  nameWithType.vb: SceneHook(Of Mod).VoidCore.Hooks.Internal.IHookBase.UnloadHook
+- uid: VoidCore.Hooks.UIHook`1
+  name: UIHook<Mod>
+  href: api/VoidCore.Hooks.UIHook-1.html
+  commentId: T:VoidCore.Hooks.UIHook`1
+  name.vb: UIHook(Of Mod)
+  fullName: VoidCore.Hooks.UIHook<Mod>
+  fullName.vb: VoidCore.Hooks.UIHook(Of Mod)
+  nameWithType: UIHook<Mod>
+  nameWithType.vb: UIHook(Of Mod)
+- uid: VoidCore.Hooks.UIHook`1.LoadHook(Modding.IMod)
+  name: LoadHook(IMod)
+  href: api/VoidCore.Hooks.UIHook-1.html#VoidCore_Hooks_UIHook_1_LoadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.UIHook`1.LoadHook(Modding.IMod)
+  fullName: VoidCore.Hooks.UIHook<Mod>.LoadHook(Modding.IMod)
+  fullName.vb: VoidCore.Hooks.UIHook(Of Mod).LoadHook(Modding.IMod)
+  nameWithType: UIHook<Mod>.LoadHook(IMod)
+  nameWithType.vb: UIHook(Of Mod).LoadHook(IMod)
+- uid: VoidCore.Hooks.UIHook`1.LoadHook*
+  name: LoadHook
+  href: api/VoidCore.Hooks.UIHook-1.html#VoidCore_Hooks_UIHook_1_LoadHook_
+  commentId: Overload:VoidCore.Hooks.UIHook`1.LoadHook
+  isSpec: "True"
+  fullName: VoidCore.Hooks.UIHook<Mod>.LoadHook
+  fullName.vb: VoidCore.Hooks.UIHook(Of Mod).LoadHook
+  nameWithType: UIHook<Mod>.LoadHook
+  nameWithType.vb: UIHook(Of Mod).LoadHook
+- uid: VoidCore.Hooks.UIHook`1.UnloadHook(Modding.IMod)
+  name: UnloadHook(IMod)
+  href: api/VoidCore.Hooks.UIHook-1.html#VoidCore_Hooks_UIHook_1_UnloadHook_Modding_IMod_
+  commentId: M:VoidCore.Hooks.UIHook`1.UnloadHook(Modding.IMod)
+  fullName: VoidCore.Hooks.UIHook<Mod>.UnloadHook(Modding.IMod)
+  fullName.vb: VoidCore.Hooks.UIHook(Of Mod).UnloadHook(Modding.IMod)
+  nameWithType: UIHook<Mod>.UnloadHook(IMod)
+  nameWithType.vb: UIHook(Of Mod).UnloadHook(IMod)
+- uid: VoidCore.Hooks.UIHook`1.UnloadHook*
+  name: UnloadHook
+  href: api/VoidCore.Hooks.UIHook-1.html#VoidCore_Hooks_UIHook_1_UnloadHook_
+  commentId: Overload:VoidCore.Hooks.UIHook`1.UnloadHook
+  isSpec: "True"
+  fullName: VoidCore.Hooks.UIHook<Mod>.UnloadHook
+  fullName.vb: VoidCore.Hooks.UIHook(Of Mod).UnloadHook
+  nameWithType: UIHook<Mod>.UnloadHook
+  nameWithType.vb: UIHook(Of Mod).UnloadHook
 - uid: VoidCore.Hooks.Utility
   name: VoidCore.Hooks.Utility
   href: api/VoidCore.Hooks.Utility.html
   commentId: N:VoidCore.Hooks.Utility
   fullName: VoidCore.Hooks.Utility
   nameWithType: VoidCore.Hooks.Utility
-- uid: VoidCore.Hooks.Utility.Allocator
-  name: Allocator
-  href: api/VoidCore.Hooks.Utility.Allocator.html
-  commentId: T:VoidCore.Hooks.Utility.Allocator
-  fullName: VoidCore.Hooks.Utility.Allocator
-  nameWithType: Allocator
-- uid: VoidCore.Hooks.Utility.Allocator.Allocate(System.Type)
-  name: Allocate(Type)
-  href: api/VoidCore.Hooks.Utility.Allocator.html#VoidCore_Hooks_Utility_Allocator_Allocate_System_Type_
-  commentId: M:VoidCore.Hooks.Utility.Allocator.Allocate(System.Type)
-  fullName: VoidCore.Hooks.Utility.Allocator.Allocate(System.Type)
-  nameWithType: Allocator.Allocate(Type)
-- uid: VoidCore.Hooks.Utility.Allocator.Allocate*
+- uid: VoidCore.Hooks.Utility.HookInjector
+  name: HookInjector
+  href: api/VoidCore.Hooks.Utility.HookInjector.html
+  commentId: T:VoidCore.Hooks.Utility.HookInjector
+  fullName: VoidCore.Hooks.Utility.HookInjector
+  nameWithType: HookInjector
+- uid: VoidCore.Hooks.Utility.HookInjector.Initialize
+  name: Initialize()
+  href: api/VoidCore.Hooks.Utility.HookInjector.html#VoidCore_Hooks_Utility_HookInjector_Initialize
+  commentId: M:VoidCore.Hooks.Utility.HookInjector.Initialize
+  fullName: VoidCore.Hooks.Utility.HookInjector.Initialize()
+  nameWithType: HookInjector.Initialize()
+- uid: VoidCore.Hooks.Utility.HookInjector.Initialize*
+  name: Initialize
+  href: api/VoidCore.Hooks.Utility.HookInjector.html#VoidCore_Hooks_Utility_HookInjector_Initialize_
+  commentId: Overload:VoidCore.Hooks.Utility.HookInjector.Initialize
+  isSpec: "True"
+  fullName: VoidCore.Hooks.Utility.HookInjector.Initialize
+  nameWithType: HookInjector.Initialize
+- uid: VoidCore.Hooks.Utility.HookInjector.InjectInto(UnityEngine.GameObject)
+  name: InjectInto(GameObject)
+  href: api/VoidCore.Hooks.Utility.HookInjector.html#VoidCore_Hooks_Utility_HookInjector_InjectInto_UnityEngine_GameObject_
+  commentId: M:VoidCore.Hooks.Utility.HookInjector.InjectInto(UnityEngine.GameObject)
+  fullName: VoidCore.Hooks.Utility.HookInjector.InjectInto(UnityEngine.GameObject)
+  nameWithType: HookInjector.InjectInto(GameObject)
+- uid: VoidCore.Hooks.Utility.HookInjector.InjectInto*
+  name: InjectInto
+  href: api/VoidCore.Hooks.Utility.HookInjector.html#VoidCore_Hooks_Utility_HookInjector_InjectInto_
+  commentId: Overload:VoidCore.Hooks.Utility.HookInjector.InjectInto
+  isSpec: "True"
+  fullName: VoidCore.Hooks.Utility.HookInjector.InjectInto
+  nameWithType: HookInjector.InjectInto
+- uid: VoidCore.Hooks.Utility.HookInjector.InjectInto``1(``0)
+  name: InjectInto<T>(T)
+  href: api/VoidCore.Hooks.Utility.HookInjector.html#VoidCore_Hooks_Utility_HookInjector_InjectInto__1___0_
+  commentId: M:VoidCore.Hooks.Utility.HookInjector.InjectInto``1(``0)
+  name.vb: InjectInto(Of T)(T)
+  fullName: VoidCore.Hooks.Utility.HookInjector.InjectInto<T>(T)
+  fullName.vb: VoidCore.Hooks.Utility.HookInjector.InjectInto(Of T)(T)
+  nameWithType: HookInjector.InjectInto<T>(T)
+  nameWithType.vb: HookInjector.InjectInto(Of T)(T)
+- uid: VoidCore.Hooks.Utility.IAllocator
+  name: IAllocator
+  href: api/VoidCore.Hooks.Utility.IAllocator.html
+  commentId: T:VoidCore.Hooks.Utility.IAllocator
+  fullName: VoidCore.Hooks.Utility.IAllocator
+  nameWithType: IAllocator
+- uid: VoidCore.Hooks.Utility.IAllocator.Allocate(System.Type,Modding.IMod)
+  name: Allocate(Type, IMod)
+  href: api/VoidCore.Hooks.Utility.IAllocator.html#VoidCore_Hooks_Utility_IAllocator_Allocate_System_Type_Modding_IMod_
+  commentId: M:VoidCore.Hooks.Utility.IAllocator.Allocate(System.Type,Modding.IMod)
+  fullName: VoidCore.Hooks.Utility.IAllocator.Allocate(System.Type, Modding.IMod)
+  nameWithType: IAllocator.Allocate(Type, IMod)
+- uid: VoidCore.Hooks.Utility.IAllocator.Allocate*
   name: Allocate
-  href: api/VoidCore.Hooks.Utility.Allocator.html#VoidCore_Hooks_Utility_Allocator_Allocate_
-  commentId: Overload:VoidCore.Hooks.Utility.Allocator.Allocate
+  href: api/VoidCore.Hooks.Utility.IAllocator.html#VoidCore_Hooks_Utility_IAllocator_Allocate_
+  commentId: Overload:VoidCore.Hooks.Utility.IAllocator.Allocate
   isSpec: "True"
-  fullName: VoidCore.Hooks.Utility.Allocator.Allocate
-  nameWithType: Allocator.Allocate
-- uid: VoidCore.Hooks.Utility.IHook
-  name: IHook
-  href: api/VoidCore.Hooks.Utility.IHook.html
-  commentId: T:VoidCore.Hooks.Utility.IHook
-  fullName: VoidCore.Hooks.Utility.IHook
-  nameWithType: IHook
-- uid: VoidCore.Hooks.Utility.IHook.LoadHook
-  name: LoadHook()
-  href: api/VoidCore.Hooks.Utility.IHook.html#VoidCore_Hooks_Utility_IHook_LoadHook
-  commentId: M:VoidCore.Hooks.Utility.IHook.LoadHook
-  fullName: VoidCore.Hooks.Utility.IHook.LoadHook()
-  nameWithType: IHook.LoadHook()
-- uid: VoidCore.Hooks.Utility.IHook.LoadHook*
-  name: LoadHook
-  href: api/VoidCore.Hooks.Utility.IHook.html#VoidCore_Hooks_Utility_IHook_LoadHook_
-  commentId: Overload:VoidCore.Hooks.Utility.IHook.LoadHook
+  fullName: VoidCore.Hooks.Utility.IAllocator.Allocate
+  nameWithType: IAllocator.Allocate
+- uid: VoidCore.Hooks.Utility.IAllocator.Deallocate(VoidCore.Hooks.Internal.IHookBase,Modding.IMod)
+  name: Deallocate(IHookBase, IMod)
+  href: api/VoidCore.Hooks.Utility.IAllocator.html#VoidCore_Hooks_Utility_IAllocator_Deallocate_VoidCore_Hooks_Internal_IHookBase_Modding_IMod_
+  commentId: M:VoidCore.Hooks.Utility.IAllocator.Deallocate(VoidCore.Hooks.Internal.IHookBase,Modding.IMod)
+  fullName: VoidCore.Hooks.Utility.IAllocator.Deallocate(VoidCore.Hooks.Internal.IHookBase, Modding.IMod)
+  nameWithType: IAllocator.Deallocate(IHookBase, IMod)
+- uid: VoidCore.Hooks.Utility.IAllocator.Deallocate*
+  name: Deallocate
+  href: api/VoidCore.Hooks.Utility.IAllocator.html#VoidCore_Hooks_Utility_IAllocator_Deallocate_
+  commentId: Overload:VoidCore.Hooks.Utility.IAllocator.Deallocate
   isSpec: "True"
-  fullName: VoidCore.Hooks.Utility.IHook.LoadHook
-  nameWithType: IHook.LoadHook
+  fullName: VoidCore.Hooks.Utility.IAllocator.Deallocate
+  nameWithType: IAllocator.Deallocate
 - uid: VoidCore.Hooks.Utility.IHook`1
-  name: IHook<Alloc>
+  name: IHook<TMod>
   href: api/VoidCore.Hooks.Utility.IHook-1.html
   commentId: T:VoidCore.Hooks.Utility.IHook`1
-  name.vb: IHook(Of Alloc)
-  fullName: VoidCore.Hooks.Utility.IHook<Alloc>
-  fullName.vb: VoidCore.Hooks.Utility.IHook(Of Alloc)
-  nameWithType: IHook<Alloc>
-  nameWithType.vb: IHook(Of Alloc)
-- uid: VoidCore.Hooks.Utility.PlayerAllocator
-  name: PlayerAllocator
-  href: api/VoidCore.Hooks.Utility.PlayerAllocator.html
-  commentId: T:VoidCore.Hooks.Utility.PlayerAllocator
-  fullName: VoidCore.Hooks.Utility.PlayerAllocator
-  nameWithType: PlayerAllocator
-- uid: VoidCore.Hooks.Utility.PlayerAllocator.Allocate(System.Type)
-  name: Allocate(Type)
-  href: api/VoidCore.Hooks.Utility.PlayerAllocator.html#VoidCore_Hooks_Utility_PlayerAllocator_Allocate_System_Type_
-  commentId: M:VoidCore.Hooks.Utility.PlayerAllocator.Allocate(System.Type)
-  fullName: VoidCore.Hooks.Utility.PlayerAllocator.Allocate(System.Type)
-  nameWithType: PlayerAllocator.Allocate(Type)
-- uid: VoidCore.Hooks.Utility.PlayerAllocator.Allocate*
-  name: Allocate
-  href: api/VoidCore.Hooks.Utility.PlayerAllocator.html#VoidCore_Hooks_Utility_PlayerAllocator_Allocate_
-  commentId: Overload:VoidCore.Hooks.Utility.PlayerAllocator.Allocate
+  name.vb: IHook(Of TMod)
+  fullName: VoidCore.Hooks.Utility.IHook<TMod>
+  fullName.vb: VoidCore.Hooks.Utility.IHook(Of TMod)
+  nameWithType: IHook<TMod>
+  nameWithType.vb: IHook(Of TMod)
+- uid: VoidCore.Hooks.Utility.IHook`2
+  name: IHook<TMod, Alloc>
+  href: api/VoidCore.Hooks.Utility.IHook-2.html
+  commentId: T:VoidCore.Hooks.Utility.IHook`2
+  name.vb: IHook(Of TMod, Alloc)
+  fullName: VoidCore.Hooks.Utility.IHook<TMod, Alloc>
+  fullName.vb: VoidCore.Hooks.Utility.IHook(Of TMod, Alloc)
+  nameWithType: IHook<TMod, Alloc>
+  nameWithType.vb: IHook(Of TMod, Alloc)
+- uid: VoidCore.Hooks.Utility.InjectionAllocator`1
+  name: InjectionAllocator<Injector>
+  href: api/VoidCore.Hooks.Utility.InjectionAllocator-1.html
+  commentId: T:VoidCore.Hooks.Utility.InjectionAllocator`1
+  name.vb: InjectionAllocator(Of Injector)
+  fullName: VoidCore.Hooks.Utility.InjectionAllocator<Injector>
+  fullName.vb: VoidCore.Hooks.Utility.InjectionAllocator(Of Injector)
+  nameWithType: InjectionAllocator<Injector>
+  nameWithType.vb: InjectionAllocator(Of Injector)
+- uid: VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Allocate(System.Type,Modding.IMod)
+  name: IAllocator.Allocate(Type, IMod)
+  href: api/VoidCore.Hooks.Utility.InjectionAllocator-1.html#VoidCore_Hooks_Utility_InjectionAllocator_1_VoidCore_Hooks_Utility_IAllocator_Allocate_System_Type_Modding_IMod_
+  commentId: M:VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Allocate(System.Type,Modding.IMod)
+  name.vb: VoidCore.Hooks.Utility.IAllocator.Allocate(Type, IMod)
+  fullName: VoidCore.Hooks.Utility.InjectionAllocator<Injector>.VoidCore.Hooks.Utility.IAllocator.Allocate(System.Type, Modding.IMod)
+  fullName.vb: VoidCore.Hooks.Utility.InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Allocate(System.Type, Modding.IMod)
+  nameWithType: InjectionAllocator<Injector>.IAllocator.Allocate(Type, IMod)
+  nameWithType.vb: InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Allocate(Type, IMod)
+- uid: VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Allocate*
+  name: IAllocator.Allocate
+  href: api/VoidCore.Hooks.Utility.InjectionAllocator-1.html#VoidCore_Hooks_Utility_InjectionAllocator_1_VoidCore_Hooks_Utility_IAllocator_Allocate_
+  commentId: Overload:VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Allocate
   isSpec: "True"
-  fullName: VoidCore.Hooks.Utility.PlayerAllocator.Allocate
-  nameWithType: PlayerAllocator.Allocate
-- uid: VoidCore.Hooks.Utility.UIAllocator
-  name: UIAllocator
-  href: api/VoidCore.Hooks.Utility.UIAllocator.html
-  commentId: T:VoidCore.Hooks.Utility.UIAllocator
-  fullName: VoidCore.Hooks.Utility.UIAllocator
-  nameWithType: UIAllocator
-- uid: VoidCore.Hooks.Utility.UIAllocator.Allocate(System.Type)
-  name: Allocate(Type)
-  href: api/VoidCore.Hooks.Utility.UIAllocator.html#VoidCore_Hooks_Utility_UIAllocator_Allocate_System_Type_
-  commentId: M:VoidCore.Hooks.Utility.UIAllocator.Allocate(System.Type)
-  fullName: VoidCore.Hooks.Utility.UIAllocator.Allocate(System.Type)
-  nameWithType: UIAllocator.Allocate(Type)
-- uid: VoidCore.Hooks.Utility.UIAllocator.Allocate*
-  name: Allocate
-  href: api/VoidCore.Hooks.Utility.UIAllocator.html#VoidCore_Hooks_Utility_UIAllocator_Allocate_
-  commentId: Overload:VoidCore.Hooks.Utility.UIAllocator.Allocate
+  name.vb: VoidCore.Hooks.Utility.IAllocator.Allocate
+  fullName: VoidCore.Hooks.Utility.InjectionAllocator<Injector>.VoidCore.Hooks.Utility.IAllocator.Allocate
+  fullName.vb: VoidCore.Hooks.Utility.InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Allocate
+  nameWithType: InjectionAllocator<Injector>.IAllocator.Allocate
+  nameWithType.vb: InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Allocate
+- uid: VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Deallocate(VoidCore.Hooks.Internal.IHookBase,Modding.IMod)
+  name: IAllocator.Deallocate(IHookBase, IMod)
+  href: api/VoidCore.Hooks.Utility.InjectionAllocator-1.html#VoidCore_Hooks_Utility_InjectionAllocator_1_VoidCore_Hooks_Utility_IAllocator_Deallocate_VoidCore_Hooks_Internal_IHookBase_Modding_IMod_
+  commentId: M:VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Deallocate(VoidCore.Hooks.Internal.IHookBase,Modding.IMod)
+  name.vb: VoidCore.Hooks.Utility.IAllocator.Deallocate(IHookBase, IMod)
+  fullName: VoidCore.Hooks.Utility.InjectionAllocator<Injector>.VoidCore.Hooks.Utility.IAllocator.Deallocate(VoidCore.Hooks.Internal.IHookBase, Modding.IMod)
+  fullName.vb: VoidCore.Hooks.Utility.InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Deallocate(VoidCore.Hooks.Internal.IHookBase, Modding.IMod)
+  nameWithType: InjectionAllocator<Injector>.IAllocator.Deallocate(IHookBase, IMod)
+  nameWithType.vb: InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Deallocate(IHookBase, IMod)
+- uid: VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Deallocate*
+  name: IAllocator.Deallocate
+  href: api/VoidCore.Hooks.Utility.InjectionAllocator-1.html#VoidCore_Hooks_Utility_InjectionAllocator_1_VoidCore_Hooks_Utility_IAllocator_Deallocate_
+  commentId: Overload:VoidCore.Hooks.Utility.InjectionAllocator`1.VoidCore#Hooks#Utility#IAllocator#Deallocate
   isSpec: "True"
-  fullName: VoidCore.Hooks.Utility.UIAllocator.Allocate
-  nameWithType: UIAllocator.Allocate
+  name.vb: VoidCore.Hooks.Utility.IAllocator.Deallocate
+  fullName: VoidCore.Hooks.Utility.InjectionAllocator<Injector>.VoidCore.Hooks.Utility.IAllocator.Deallocate
+  fullName.vb: VoidCore.Hooks.Utility.InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Deallocate
+  nameWithType: InjectionAllocator<Injector>.IAllocator.Deallocate
+  nameWithType.vb: InjectionAllocator(Of Injector).VoidCore.Hooks.Utility.IAllocator.Deallocate
 - uid: VoidCore.LoadedAudio
   name: LoadedAudio
   href: api/VoidCore.LoadedAudio.html
@@ -325,38 +538,6 @@ references:
   isSpec: "True"
   fullName: VoidCore.LoadedAudio.Finalize
   nameWithType: LoadedAudio.Finalize
-- uid: VoidCore.Mod
-  name: Mod
-  href: api/VoidCore.Mod.html
-  commentId: T:VoidCore.Mod
-  fullName: VoidCore.Mod
-  nameWithType: Mod
-- uid: VoidCore.Mod.GetVersion
-  name: GetVersion()
-  href: api/VoidCore.Mod.html#VoidCore_Mod_GetVersion
-  commentId: M:VoidCore.Mod.GetVersion
-  fullName: VoidCore.Mod.GetVersion()
-  nameWithType: Mod.GetVersion()
-- uid: VoidCore.Mod.GetVersion*
-  name: GetVersion
-  href: api/VoidCore.Mod.html#VoidCore_Mod_GetVersion_
-  commentId: Overload:VoidCore.Mod.GetVersion
-  isSpec: "True"
-  fullName: VoidCore.Mod.GetVersion
-  nameWithType: Mod.GetVersion
-- uid: VoidCore.Mod.Initialize
-  name: Initialize()
-  href: api/VoidCore.Mod.html#VoidCore_Mod_Initialize
-  commentId: M:VoidCore.Mod.Initialize
-  fullName: VoidCore.Mod.Initialize()
-  nameWithType: Mod.Initialize()
-- uid: VoidCore.Mod.Initialize*
-  name: Initialize
-  href: api/VoidCore.Mod.html#VoidCore_Mod_Initialize_
-  commentId: Overload:VoidCore.Mod.Initialize
-  isSpec: "True"
-  fullName: VoidCore.Mod.Initialize
-  nameWithType: Mod.Initialize
 - uid: VoidCore.ModLog
   name: ModLog
   href: api/VoidCore.ModLog.html

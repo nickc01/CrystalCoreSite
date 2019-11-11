@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Audio.MusicCueFactory.html",
-          "hash": "PI5k7+s4QMS8IGtIl1CzjQ=="
+          "hash": "nZG4zCko5WG1bB5A/ClW/A=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Audio.MusicPack.html",
-          "hash": "s9dYk+/R7D07chH+GU93wA=="
+          "hash": "8GiW77Go97Fqkr6BDX7QiA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Audio.html",
-          "hash": "IWLtVpaiZkrT2L3wHJpUEg=="
+          "hash": "YtEvc5OHQJq7RcZr2f43dA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Events.html",
-          "hash": "6S3lY/bGusnvX/7wbjXAqw=="
+          "hash": "ycKJm1ekOd5lqAvU72WQ+g=="
         }
       },
       "is_incremental": false,
@@ -53,11 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Hooks.PlayerHook.yml",
+      "source_relative_path": "api/VoidCore.Hooks.Internal.IHookBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VoidCore.Hooks.PlayerHook.html",
-          "hash": "vI7fineJkuVqSCkEGeFOaA=="
+          "relative_path": "api/VoidCore.Hooks.Internal.IHookBase.html",
+          "hash": "ZnWPTOTu0k3IydhIyDfNqg=="
         }
       },
       "is_incremental": false,
@@ -65,11 +65,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Hooks.SceneHook.yml",
+      "source_relative_path": "api/VoidCore.Hooks.Internal.PlayerInjector.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VoidCore.Hooks.SceneHook.html",
-          "hash": "H478xJ4DUxfwsyyd+Ty4ag=="
+          "relative_path": "api/VoidCore.Hooks.Internal.PlayerInjector.html",
+          "hash": "EmEp6mhrytqx5A1MWhi5Vw=="
         }
       },
       "is_incremental": false,
@@ -77,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Hooks.UIHook.yml",
+      "source_relative_path": "api/VoidCore.Hooks.Internal.UIInjector.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VoidCore.Hooks.UIHook.html",
-          "hash": "mQqz6SzPiJRZLqBtfvY/CQ=="
+          "relative_path": "api/VoidCore.Hooks.Internal.UIInjector.html",
+          "hash": "VB1EJA22nREHbq3YB1rHzQ=="
         }
       },
       "is_incremental": false,
@@ -89,11 +89,71 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Hooks.Utility.Allocator.yml",
+      "source_relative_path": "api/VoidCore.Hooks.Internal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VoidCore.Hooks.Utility.Allocator.html",
-          "hash": "fkCdaFG6MAbtrg68QENEvg=="
+          "relative_path": "api/VoidCore.Hooks.Internal.html",
+          "hash": "LfGXNKHqml5q3h+r+nnxzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Hooks.PlayerHook-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Hooks.PlayerHook-1.html",
+          "hash": "Pm8gU6tlUidhKbVZqAoijg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Hooks.SceneHook-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Hooks.SceneHook-1.html",
+          "hash": "YNqiEOLHSxP4g1dquhgewQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Hooks.UIHook-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Hooks.UIHook-1.html",
+          "hash": "UbaG+b27gBLUbXLLF92dkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Hooks.Utility.HookInjector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Hooks.Utility.HookInjector.html",
+          "hash": "KVlJfCQQZzyegaJs5Nh05w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoidCore.Hooks.Utility.IAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoidCore.Hooks.Utility.IAllocator.html",
+          "hash": "7QHdLprb0z/aw6VUtCKKbw=="
         }
       },
       "is_incremental": false,
@@ -105,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.Utility.IHook-1.html",
-          "hash": "R1uLqnII1QSWZ8apKMCDdw=="
+          "hash": "7xC5vXyd2olucqEcTkyLtQ=="
         }
       },
       "is_incremental": false,
@@ -113,11 +173,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Hooks.Utility.IHook.yml",
+      "source_relative_path": "api/VoidCore.Hooks.Utility.IHook-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VoidCore.Hooks.Utility.IHook.html",
-          "hash": "8RXa2LdYarFdwGpM/cV3cg=="
+          "relative_path": "api/VoidCore.Hooks.Utility.IHook-2.html",
+          "hash": "0vOsRtQiTIgTJIeCle8XXQ=="
         }
       },
       "is_incremental": false,
@@ -125,23 +185,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Hooks.Utility.PlayerAllocator.yml",
+      "source_relative_path": "api/VoidCore.Hooks.Utility.InjectionAllocator-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VoidCore.Hooks.Utility.PlayerAllocator.html",
-          "hash": "npLY+WaozfukKuIsVTPewQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Hooks.Utility.UIAllocator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoidCore.Hooks.Utility.UIAllocator.html",
-          "hash": "42ECtQE9E/iXjHsWqvIWSg=="
+          "relative_path": "api/VoidCore.Hooks.Utility.InjectionAllocator-1.html",
+          "hash": "ty7marfhh/y26TjV7mn/Ng=="
         }
       },
       "is_incremental": false,
@@ -153,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.Utility.html",
-          "hash": "4QBhkKf1AXdK0GRofhttwQ=="
+          "hash": "qRK52FarZdk+l+SdWXXxHQ=="
         }
       },
       "is_incremental": false,
@@ -165,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Hooks.html",
-          "hash": "/vNviZUjLcoq5lMt2c+pZw=="
+          "hash": "gHraxWRd274Y9i4FNVCRWg=="
         }
       },
       "is_incremental": false,
@@ -177,19 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.LoadedAudio.html",
-          "hash": "uRBDsafVpEofzHpkmiSLpg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoidCore.Mod.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoidCore.Mod.html",
-          "hash": "ogC7TG6H8ryzfSpD5UY6Xg=="
+          "hash": "OHeN2lwipdmfcQz76zX3Fw=="
         }
       },
       "is_incremental": false,
@@ -201,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.ModLog.html",
-          "hash": "o2Ztm7l3I6sRRe8hdWgmcg=="
+          "hash": "qOioq3QiizeUhoVPoIg97A=="
         }
       },
       "is_incremental": false,
@@ -213,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.ResourceLoader.html",
-          "hash": "cJe2QP2STbTF8tw/18s0Ew=="
+          "hash": "fIv1ikhJpLH7VQoVBgYq+g=="
         }
       },
       "is_incremental": false,
@@ -225,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.Settings.html",
-          "hash": "ls3zlqd9ifaOn1fGA6ktgw=="
+          "hash": "4C8Fk5BDuZRm2qCiNYOkkg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VoidCore.html",
-          "hash": "ReejR2QrJ3lNCZTFwv1Low=="
+          "hash": "m7DZmxfUhvpgo3w+ASjPuQ=="
         }
       },
       "is_incremental": false,
@@ -252,7 +288,7 @@
           "hash": "DS1JLxGlha0DEwaJulvPjw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "NpMW1X/GLT4CtSnXc8YWkA=="
+          "hash": "vDZWOOWtRs9IcDiVJOiuIg=="
         }
       },
       "is_incremental": false,
@@ -341,8 +377,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 20,
-          "skipped_file_count": 0
+          "total_file_count": 23,
+          "skipped_file_count": 7
         }
       }
     },

@@ -73,7 +73,8 @@
   
   <h1 id="VoidCore_ResourceLoader" data-uid="VoidCore.ResourceLoader" class="text-break">Class ResourceLoader
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Used to load resources into the game, such as Textures, Sprites, and Audio</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -83,10 +84,16 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.GetHashCode()</span>
@@ -96,12 +103,6 @@
     </div>
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="VoidCore.html">VoidCore</a></h6>
@@ -117,11 +118,12 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_ResourceLoader_LoadResource_System_String_System_Reflection_Assembly_.md&amp;value=---%0Auid%3A%20VoidCore.ResourceLoader.LoadResource(System.String%2CSystem.Reflection.Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L18">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L30">View Source</a>
   </span>
   <a id="VoidCore_ResourceLoader_LoadResource_" data-uid="VoidCore.ResourceLoader.LoadResource*"></a>
   <h4 id="VoidCore_ResourceLoader_LoadResource_System_String_System_Reflection_Assembly_" data-uid="VoidCore.ResourceLoader.LoadResource(System.String,System.Reflection.Assembly)">LoadResource(String, Assembly)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Loads a resource as a stream</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -140,12 +142,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">ResourcePath</span></td>
-        <td></td>
+        <td><p>The path to the resource in the project</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">searchAssembly</span></td>
-        <td></td>
+        <td><p>The assembly to search in. If left null, it searches the Executing Assembly</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -160,20 +164,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
-        <td></td>
+        <td><p>The stream to the resource file</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="VoidCore_ResourceLoader_LoadResource_System_String_System_Reflection_Assembly__examples">Examples</h5>
+  <p>//If there is a texture resource located at &quot;Resources/Images/test.png&quot;
+Texture2D texture = LoadResource(&quot;Resources.Images.test.png&quot;, Assembly.GetExecutingAssembly());</p>
+
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_ResourceLoader_LoadResourceAudio_System_String_System_Reflection_Assembly_.md&amp;value=---%0Auid%3A%20VoidCore.ResourceLoader.LoadResourceAudio(System.String%2CSystem.Reflection.Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.NLayer.cs/#L63">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.Audio.cs/#L62">View Source</a>
   </span>
   <a id="VoidCore_ResourceLoader_LoadResourceAudio_" data-uid="VoidCore.ResourceLoader.LoadResourceAudio*"></a>
   <h4 id="VoidCore_ResourceLoader_LoadResourceAudio_System_String_System_Reflection_Assembly_" data-uid="VoidCore.ResourceLoader.LoadResourceAudio(System.String,System.Reflection.Assembly)">LoadResourceAudio(String, Assembly)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Loads a resource as a AudioClip</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -192,12 +202,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">ResourcePath</span></td>
-        <td></td>
+        <td><p>The path to the resource in the project</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">searchAssembly</span></td>
-        <td></td>
+        <td><p>The assembly to search in. If left null, it searches the Executing Assembly</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -212,7 +224,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="VoidCore.LoadedAudio.html">LoadedAudio</a></td>
-        <td></td>
+        <td><p>The stream to the resource file</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -221,11 +234,12 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_ResourceLoader_LoadResourceRaw_System_String_System_Reflection_Assembly_.md&amp;value=---%0Auid%3A%20VoidCore.ResourceLoader.LoadResourceRaw(System.String%2CSystem.Reflection.Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L41">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L58">View Source</a>
   </span>
   <a id="VoidCore_ResourceLoader_LoadResourceRaw_" data-uid="VoidCore.ResourceLoader.LoadResourceRaw*"></a>
   <h4 id="VoidCore_ResourceLoader_LoadResourceRaw_System_String_System_Reflection_Assembly_" data-uid="VoidCore.ResourceLoader.LoadResourceRaw(System.String,System.Reflection.Assembly)">LoadResourceRaw(String, Assembly)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Loads a resource as a raw byte array</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -244,12 +258,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">ResourcePath</span></td>
-        <td></td>
+        <td><p>The path to the resource in the project</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">searchAssembly</span></td>
-        <td></td>
+        <td><p>The assembly to search in. If left null, it searches the Executing Assembly</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -264,7 +280,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
-        <td></td>
+        <td><p>The stream to the resource file</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -273,11 +290,12 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_ResourceLoader_LoadResourceSprite_System_String_System_Reflection_Assembly_UnityEngine_SpriteMeshType_System_Nullable_UnityEngine_Vector4__.md&amp;value=---%0Auid%3A%20VoidCore.ResourceLoader.LoadResourceSprite(System.String%2CSystem.Reflection.Assembly%2CUnityEngine.SpriteMeshType%2CSystem.Nullable%7BUnityEngine.Vector4%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L72">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L103">View Source</a>
   </span>
   <a id="VoidCore_ResourceLoader_LoadResourceSprite_" data-uid="VoidCore.ResourceLoader.LoadResourceSprite*"></a>
   <h4 id="VoidCore_ResourceLoader_LoadResourceSprite_System_String_System_Reflection_Assembly_UnityEngine_SpriteMeshType_System_Nullable_UnityEngine_Vector4__" data-uid="VoidCore.ResourceLoader.LoadResourceSprite(System.String,System.Reflection.Assembly,UnityEngine.SpriteMeshType,System.Nullable{UnityEngine.Vector4})">LoadResourceSprite(String, Assembly, SpriteMeshType, Nullable&lt;Vector4&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Loads a resource as a sprite</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -296,22 +314,26 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">ResourcePath</span></td>
-        <td></td>
+        <td><p>The path to the resource in the project</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">searchAssembly</span></td>
-        <td></td>
+        <td><p>The assembly to search in. If left null, it searches the Executing Assembly</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">UnityEngine.SpriteMeshType</span></td>
         <td><span class="parametername">meshType</span></td>
-        <td></td>
+        <td><p>The mesh type of the sprite</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Vector4</span>&gt;</td>
         <td><span class="parametername">border</span></td>
-        <td></td>
+        <td><p>The border of the sprite</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -335,11 +357,12 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_ResourceLoader_LoadResourceTexture_System_String_System_Reflection_Assembly_.md&amp;value=---%0Auid%3A%20VoidCore.ResourceLoader.LoadResourceTexture(System.String%2CSystem.Reflection.Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L54">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.cs/#L77">View Source</a>
   </span>
   <a id="VoidCore_ResourceLoader_LoadResourceTexture_" data-uid="VoidCore.ResourceLoader.LoadResourceTexture*"></a>
   <h4 id="VoidCore_ResourceLoader_LoadResourceTexture_System_String_System_Reflection_Assembly_" data-uid="VoidCore.ResourceLoader.LoadResourceTexture(System.String,System.Reflection.Assembly)">LoadResourceTexture(String, Assembly)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Loads a resource as a texture</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -358,12 +381,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">ResourcePath</span></td>
-        <td></td>
+        <td><p>The path to the resource in the project</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">searchAssembly</span></td>
-        <td></td>
+        <td><p>The assembly to search in. If left null, it searches the Executing Assembly</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -378,7 +403,8 @@
     <tbody>
       <tr>
         <td><span class="xref">UnityEngine.Texture2D</span></td>
-        <td></td>
+        <td><p>The stream to the resource file</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -393,7 +419,7 @@
                     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_ResourceLoader.md&amp;value=---%0Auid%3A%20VoidCore.ResourceLoader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.NLayer.cs/#L40" class="contribution-link">View Source</a>
+                    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.Audio.cs/#L40" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
