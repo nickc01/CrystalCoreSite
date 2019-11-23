@@ -89,16 +89,10 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.GetHashCode()</span>
@@ -108,6 +102,12 @@
     </div>
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="VoidCore.Hooks.html">VoidCore.Hooks</a></h6>
@@ -150,70 +150,6 @@
    }
 }</code></pre>
 
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1_ActiveScene.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601.ActiveScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L51">View Source</a>
-  </span>
-  <a id="VoidCore_Hooks_SceneHook_1_ActiveScene_" data-uid="VoidCore.Hooks.SceneHook`1.ActiveScene*"></a>
-  <h4 id="VoidCore_Hooks_SceneHook_1_ActiveScene" data-uid="VoidCore.Hooks.SceneHook`1.ActiveScene">ActiveScene</h4>
-  <div class="markdown level1 summary"><p>The currently active scene. Any new GameObjects that are created are put into this scene</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Scene ActiveScene { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.SceneManagement.Scene</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1_LoadedScenes.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601.LoadedScenes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L47">View Source</a>
-  </span>
-  <a id="VoidCore_Hooks_SceneHook_1_LoadedScenes_" data-uid="VoidCore.Hooks.SceneHook`1.LoadedScenes*"></a>
-  <h4 id="VoidCore_Hooks_SceneHook_1_LoadedScenes" data-uid="VoidCore.Hooks.SceneHook`1.LoadedScenes">LoadedScenes</h4>
-  <div class="markdown level1 summary"><p>All currently loaded scenes in the game</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Scene&gt; LoadedScenes { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">UnityEngine.SceneManagement.Scene</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
@@ -221,7 +157,7 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1_OnActiveSceneChange_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601.OnActiveSceneChange(UnityEngine.SceneManagement.Scene%2CUnityEngine.SceneManagement.Scene)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L117">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L76">View Source</a>
   </span>
   <a id="VoidCore_Hooks_SceneHook_1_OnActiveSceneChange_" data-uid="VoidCore.Hooks.SceneHook`1.OnActiveSceneChange*"></a>
   <h4 id="VoidCore_Hooks_SceneHook_1_OnActiveSceneChange_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_" data-uid="VoidCore.Hooks.SceneHook`1.OnActiveSceneChange(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)">OnActiveSceneChange(Scene, Scene)</h4>
@@ -261,7 +197,7 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1_OnSceneAddition_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601.OnSceneAddition(UnityEngine.SceneManagement.Scene%2CUnityEngine.SceneManagement.LoadSceneMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L104">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L63">View Source</a>
   </span>
   <a id="VoidCore_Hooks_SceneHook_1_OnSceneAddition_" data-uid="VoidCore.Hooks.SceneHook`1.OnSceneAddition*"></a>
   <h4 id="VoidCore_Hooks_SceneHook_1_OnSceneAddition_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_" data-uid="VoidCore.Hooks.SceneHook`1.OnSceneAddition(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)">OnSceneAddition(Scene, LoadSceneMode)</h4>
@@ -301,7 +237,7 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1_OnSceneRemoval_UnityEngine_SceneManagement_Scene_.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601.OnSceneRemoval(UnityEngine.SceneManagement.Scene)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L110">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L69">View Source</a>
   </span>
   <a id="VoidCore_Hooks_SceneHook_1_OnSceneRemoval_" data-uid="VoidCore.Hooks.SceneHook`1.OnSceneRemoval*"></a>
   <h4 id="VoidCore_Hooks_SceneHook_1_OnSceneRemoval_UnityEngine_SceneManagement_Scene_" data-uid="VoidCore.Hooks.SceneHook`1.OnSceneRemoval(UnityEngine.SceneManagement.Scene)">OnSceneRemoval(Scene)</h4>
@@ -337,7 +273,7 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_LoadHook_Modding_IMod_.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601.VoidCore%23Hooks%23Internal%23IHookBase%23LoadHook(Modding.IMod)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L53">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L42">View Source</a>
   </span>
   <a id="VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_LoadHook_" data-uid="VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#LoadHook*"></a>
   <h4 id="VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_LoadHook_Modding_IMod_" data-uid="VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#LoadHook(Modding.IMod)">IHookBase.LoadHook(IMod)</h4>
@@ -369,7 +305,7 @@
     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_UnloadHook_Modding_IMod_.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601.VoidCore%23Hooks%23Internal%23IHookBase%23UnloadHook(Modding.IMod)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L60">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L50">View Source</a>
   </span>
   <a id="VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_UnloadHook_" data-uid="VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#UnloadHook*"></a>
   <h4 id="VoidCore_Hooks_SceneHook_1_VoidCore_Hooks_Internal_IHookBase_UnloadHook_Modding_IMod_" data-uid="VoidCore.Hooks.SceneHook`1.VoidCore#Hooks#Internal#IHookBase#UnloadHook(Modding.IMod)">IHookBase.UnloadHook(IMod)</h4>
@@ -414,7 +350,7 @@
                     <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_SceneHook_1.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.SceneHook%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L39" class="contribution-link">View Source</a>
+                    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/SceneHook.cs/#L38" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

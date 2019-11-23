@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LoadedAudio
+    <title>Class GMTrackerAllocator
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LoadedAudio
+    <meta name="title" content="Class GMTrackerAllocator
    ">
     <meta name="generator" content="docfx 2.46.0.0">
     
@@ -68,21 +68,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VoidCore.LoadedAudio">
+            <article class="content wrap" id="_content" data-uid="VoidCore.Hooks.Internal.GMTrackerAllocator">
   
   
-  <h1 id="VoidCore_LoadedAudio" data-uid="VoidCore.LoadedAudio" class="text-break">Class LoadedAudio
+  <h1 id="VoidCore_Hooks_Internal_GMTrackerAllocator" data-uid="VoidCore.Hooks.Internal.GMTrackerAllocator" class="text-break">Class GMTrackerAllocator
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LoadedAudio</span></div>
+    <div class="level1"><span class="xref">GMTrackerAllocator</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="VoidCore.Hooks.Utility.IAllocator.html">IAllocator</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -108,30 +108,52 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VoidCore.html">VoidCore</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VoidCore.Hooks.Internal.html">VoidCore.Hooks.Internal</a></h6>
   <h6><strong>Assembly</strong>: VoidCore.dll</h6>
-  <h5 id="VoidCore_LoadedAudio_syntax">Syntax</h5>
+  <h5 id="VoidCore_Hooks_Internal_GMTrackerAllocator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LoadedAudio : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class GMTrackerAllocator : IAllocator</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="eii">Explicit Interface Implementations
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_LoadedAudio_Clip.md&amp;value=---%0Auid%3A%20VoidCore.LoadedAudio.Clip%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_Internal_GMTrackerAllocator_VoidCore_Hooks_Utility_IAllocator_Allocate_System_Type_Modding_IMod_.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.Internal.GMTrackerAllocator.VoidCore%23Hooks%23Utility%23IAllocator%23Allocate(System.Type%2CModding.IMod)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.Audio.cs/#L14">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/GMTrackerHook.cs/#L152">View Source</a>
   </span>
-  <a id="VoidCore_LoadedAudio_Clip_" data-uid="VoidCore.LoadedAudio.Clip*"></a>
-  <h4 id="VoidCore_LoadedAudio_Clip" data-uid="VoidCore.LoadedAudio.Clip">Clip</h4>
+  <a id="VoidCore_Hooks_Internal_GMTrackerAllocator_VoidCore_Hooks_Utility_IAllocator_Allocate_" data-uid="VoidCore.Hooks.Internal.GMTrackerAllocator.VoidCore#Hooks#Utility#IAllocator#Allocate*"></a>
+  <h4 id="VoidCore_Hooks_Internal_GMTrackerAllocator_VoidCore_Hooks_Utility_IAllocator_Allocate_System_Type_Modding_IMod_" data-uid="VoidCore.Hooks.Internal.GMTrackerAllocator.VoidCore#Hooks#Utility#IAllocator#Allocate(System.Type,Modding.IMod)">IAllocator.Allocate(Type, IMod)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioClip Clip { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">IHookBase IAllocator.Allocate(Type hook, IMod mod)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">hook</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Modding.IMod</span></td>
+        <td><span class="parametername">mod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -141,46 +163,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.AudioClip</span></td>
+        <td><a class="xref" href="VoidCore.Hooks.Internal.IHookBase.html">IHookBase</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_LoadedAudio_Dispose.md&amp;value=---%0Auid%3A%20VoidCore.LoadedAudio.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_Internal_GMTrackerAllocator_VoidCore_Hooks_Utility_IAllocator_Deallocate_VoidCore_Hooks_Internal_IHookBase_Modding_IMod_.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.Internal.GMTrackerAllocator.VoidCore%23Hooks%23Utility%23IAllocator%23Deallocate(VoidCore.Hooks.Internal.IHookBase%2CModding.IMod)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.Audio.cs/#L24">View Source</a>
+    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/GMTrackerHook.cs/#L162">View Source</a>
   </span>
-  <a id="VoidCore_LoadedAudio_Dispose_" data-uid="VoidCore.LoadedAudio.Dispose*"></a>
-  <h4 id="VoidCore_LoadedAudio_Dispose" data-uid="VoidCore.LoadedAudio.Dispose">Dispose()</h4>
+  <a id="VoidCore_Hooks_Internal_GMTrackerAllocator_VoidCore_Hooks_Utility_IAllocator_Deallocate_" data-uid="VoidCore.Hooks.Internal.GMTrackerAllocator.VoidCore#Hooks#Utility#IAllocator#Deallocate*"></a>
+  <h4 id="VoidCore_Hooks_Internal_GMTrackerAllocator_VoidCore_Hooks_Utility_IAllocator_Deallocate_VoidCore_Hooks_Internal_IHookBase_Modding_IMod_" data-uid="VoidCore.Hooks.Internal.GMTrackerAllocator.VoidCore#Hooks#Utility#IAllocator#Deallocate(VoidCore.Hooks.Internal.IHookBase,Modding.IMod)">IAllocator.Deallocate(IHookBase, IMod)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    <pre><code class="lang-csharp hljs">void IAllocator.Deallocate(IHookBase hook, IMod mod)</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_LoadedAudio_Finalize.md&amp;value=---%0Auid%3A%20VoidCore.LoadedAudio.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.Audio.cs/#L33">View Source</a>
-  </span>
-  <a id="VoidCore_LoadedAudio_Finalize_" data-uid="VoidCore.LoadedAudio.Finalize*"></a>
-  <h4 id="VoidCore_LoadedAudio_Finalize" data-uid="VoidCore.LoadedAudio.Finalize">Finalize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
-  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoidCore.Hooks.Internal.IHookBase.html">IHookBase</a></td>
+        <td><span class="parametername">hook</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Modding.IMod</span></td>
+        <td><span class="parametername">mod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <a class="xref" href="VoidCore.Hooks.Utility.IAllocator.html">IAllocator</a>
   </div>
 </article>
           </div>
@@ -190,10 +217,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_LoadedAudio.md&amp;value=---%0Auid%3A%20VoidCore.LoadedAudio%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/nickc01/Void-Core/new/master/apiSpec/new?filename=VoidCore_Hooks_Internal_GMTrackerAllocator.md&amp;value=---%0Auid%3A%20VoidCore.Hooks.Internal.GMTrackerAllocator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Resources/ResourceLoader.Audio.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/nickc01/Void-Core/blob/master/VoidCore/src/Hooks/GMTrackerHook.cs/#L148" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

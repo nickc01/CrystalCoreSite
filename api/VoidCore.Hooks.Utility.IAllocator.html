@@ -73,8 +73,7 @@
   
   <h1 id="VoidCore_Hooks_Utility_IAllocator" data-uid="VoidCore.Hooks.Utility.IAllocator" class="text-break">Interface IAllocator
   </h1>
-  <div class="markdown level0 summary"><p>Used to customize how the hooks are allocated and deallocated</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="VoidCore.Hooks.Utility.html">VoidCore.Hooks.Utility</a></h6>
   <h6><strong>Assembly</strong>: VoidCore.dll</h6>
@@ -93,8 +92,7 @@
   </span>
   <a id="VoidCore_Hooks_Utility_IAllocator_Allocate_" data-uid="VoidCore.Hooks.Utility.IAllocator.Allocate*"></a>
   <h4 id="VoidCore_Hooks_Utility_IAllocator_Allocate_System_Type_Modding_IMod_" data-uid="VoidCore.Hooks.Utility.IAllocator.Allocate(System.Type,Modding.IMod)">Allocate(Type, IMod)</h4>
-  <div class="markdown level1 summary"><p>Determines how the hook is allocated</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -113,14 +111,12 @@
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">hook</span></td>
-        <td><p>The hook type to be allocated</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">Modding.IMod</span></td>
         <td><span class="parametername">mod</span></td>
-        <td><p>The mod that this hook came from</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -135,8 +131,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="VoidCore.Hooks.Internal.IHookBase.html">IHookBase</a></td>
-        <td><p>Returns the allocated object. Note that allocators can return null for this if the hook is going to be allocated later</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -149,8 +144,7 @@
   </span>
   <a id="VoidCore_Hooks_Utility_IAllocator_Deallocate_" data-uid="VoidCore.Hooks.Utility.IAllocator.Deallocate*"></a>
   <h4 id="VoidCore_Hooks_Utility_IAllocator_Deallocate_VoidCore_Hooks_Internal_IHookBase_Modding_IMod_" data-uid="VoidCore.Hooks.Utility.IAllocator.Deallocate(VoidCore.Hooks.Internal.IHookBase,Modding.IMod)">Deallocate(IHookBase, IMod)</h4>
-  <div class="markdown level1 summary"><p>Determines how the hook is deallocated. This is called when the mod is being unloaded</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -169,14 +163,12 @@
       <tr>
         <td><a class="xref" href="VoidCore.Hooks.Internal.IHookBase.html">IHookBase</a></td>
         <td><span class="parametername">hook</span></td>
-        <td><p>The hook to be deallocated</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">Modding.IMod</span></td>
         <td><span class="parametername">mod</span></td>
-        <td><p>THe mod that this hook came from</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
